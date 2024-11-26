@@ -1,4 +1,14 @@
+<p align="center">
+  <img src="./asstes/img/logo.jpg" alt="Logo" />
+</p>
+
+## Objetivo e detalhes do Projeto
+```bash
+Criar um Backend em Go para acessar as principais operações da tabela Clientes do banco mysql
+```
+
 ## database/table:
+```bash
 CREATE TABLE `clientes` (
 	`id` BIGINT(20) UNSIGNED NOT NULL AUTO_INCREMENT,
 	`nome` VARCHAR(100) NOT NULL COLLATE 'utf8mb4_general_ci',
@@ -16,6 +26,7 @@ CREATE TABLE `clientes` (
 COLLATE='utf8mb4_general_ci'
 ENGINE=InnoDB
 ;
+```
 
 ## criando o projeto
 go mod init go-backend
@@ -42,3 +53,13 @@ go test ./tests
 
 ## Para executar 
 go run main.go
+
+## Detalhes
+## Estrutura
+<img src="./assets/img/est.jpg" width="200" alt="estrutura" />
+
+## Tabela
+<img src="./assets/img/db.jpg" width="800" alt="tabela" />
+
+## Documentação - Swagger - abrindo em: /docs
+<img src="./assets/img/sw.jpg" width="800" alt="Logo" />
