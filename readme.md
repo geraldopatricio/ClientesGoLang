@@ -60,10 +60,6 @@ go test ./tests
 ## Executando 
 go run main.go
 
-## Detalhes
-## Estrutura
-<img src="./assets/img/est.jpg" width="200" alt="estrutura" />
-
 ## Tabela
 <img src="./assets/img/db.jpg" width="800" alt="tabela" />
 
@@ -72,6 +68,7 @@ go run main.go
 
 ## suporte
 ```bash
-WhatsApp: (85) 9 9150-8104
-Mail: geraldo@gpsoft.com.br
+:phone: (85) 9 9150-8104<br/>
+:email: geraldo@gpsoft.com.br<br/>
+:smiley: Geraldo Patrício Melo
 ```
