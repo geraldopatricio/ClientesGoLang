@@ -2,7 +2,7 @@
   <img src="./assets/img/logo.jpg" width="200"  alt="Logo" />
 </p>
 
-## Objetivo e detalhes do Projeto
+# Objetivo e detalhes do Projeto
 ```bash
 Criar um Backend em Go para acessar as principais operações da tabela Clientes do banco mysql
 ```
@@ -32,21 +32,27 @@ ENGINE=InnoDB
 go mod init go-backend
 
 ## dependencias necessárias
+```bash
 go get -u gorm.io/gorm
 go get -u gorm.io/driver/mysql
 go get -u github.com/gorilla/mux
+```
 
 ## incluindo o swagger
+```bash
 go install github.com/swaggo/swag/cmd/swag@latest
 go get -u github.com/swaggo/gin-swagger
 go get -u github.com/swaggo/files
+```
 
 ## adicionando o swagger
 swag init
 
 ## instalação de teste automatizado
+```bash
 go get github.com/stretchr/testify
 go get github.com/gin-gonic/gin
+```
 
 ## executando os testes
 go test ./tests
