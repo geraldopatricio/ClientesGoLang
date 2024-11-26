@@ -67,8 +67,7 @@ go run main.go
 <img src="./assets/img/sw.jpg" width="800" alt="Logo" />
 
 ## suporte
-```bash
 :phone: (85) 9 9150-8104<br/>
 :email: geraldo@gpsoft.com.br<br/>
 :smiley: Geraldo Patrício Melo
-```
+
